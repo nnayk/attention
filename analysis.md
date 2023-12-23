@@ -1,0 +1,3 @@
+1. One sentence I tried was "I ate spicy [MASK]". Layer 2 and head 5 gave a lot of attention to the adjective "spicy" for the [MASK] term that followed it. Another place where I observed the focus on adjectives for short sentences was in layer 2, head 6 for the sentence "I'm a nice [MASK]".
+
+2. Another sentence I tried was "What is the [MASK] today?". In layer 3 I observed the pattern discussed in the spec about each word considering the subsequent word. Additionally, in layer 4, I observed a pattern in head 6 in which each word paid attention to the word that preceded it. I also observed this pattern for layer 4,head 6 for a sentence from above: "I'm a nice [MASK]."
